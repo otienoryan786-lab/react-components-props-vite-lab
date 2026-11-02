@@ -1,29 +1,32 @@
 import logo from "../assets/logo";
 
 const blogData = {
-  name: "Underreacted",
+  name: "Pixel & Props",
   image: logo,
-  about: "A blog about learning React",
+  about:
+    "A blog about learning React one component at a time, written by a designer who loves clean layouts and clean code.",
   posts: [
     {
       id: 1,
-      title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
+      title: "Components Are Just Design Systems in Code",
+      date: "October 30, 2026",
+      preview:
+        "A button, a card, a header: reusable pieces you build once and use everywhere.",
       minutes: 5,
     },
     {
       id: 2,
-      title: "React Data Flow",
-      date: "December 11, 2020",
-      preview: "Passing props is never passé",
-      minutes: 15,
+      title: "Props: Handing Data Down the Tree",
+      date: "October 27, 2026",
+      preview:
+        "How a parent component passes names, images and text to its children.",
+      minutes: 12,
     },
     {
       id: 3,
-      title: "Function vs Class Components",
-      preview: "React, meet OOJS.",
-      minutes: 47,
+      title: "Why Every List Item Needs a Key",
+      preview: "React's way of telling one list item from the next.",
+      minutes: 34,
     },
   ],
 };
