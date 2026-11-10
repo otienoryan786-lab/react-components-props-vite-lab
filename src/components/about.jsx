@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function About({ image = "https://via.placeholder.com/215", about }) {
   return (
     <aside>
@@ -6,5 +8,10 @@ function About({ image = "https://via.placeholder.com/215", about }) {
     </aside>
   );
 }
+
+About.propTypes = {
+  image: PropTypes.string,
+  about: PropTypes.string,
+};
 
 export default About;

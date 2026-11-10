@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function Header({ name }) {
   return (
     <header>
@@ -5,5 +7,9 @@ function Header({ name }) {
     </header>
   );
 }
+
+Header.propTypes = {
+  name: PropTypes.string.isRequired,
+};
 
 export default Header;

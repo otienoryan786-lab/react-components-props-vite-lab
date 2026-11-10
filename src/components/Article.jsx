@@ -1,3 +1,5 @@
-import Article from "./article";
+const Article = () => {
+  return <article />;
+};
 
 export default Article;
